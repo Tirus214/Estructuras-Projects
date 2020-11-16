@@ -9,11 +9,16 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    almacen.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    receta.cpp
 
 HEADERS += \
-    mainwindow.h
+    Estructuras.h \
+    almacen.h \
+    mainwindow.h \
+    receta.h
 
 FORMS += \
     mainwindow.ui
