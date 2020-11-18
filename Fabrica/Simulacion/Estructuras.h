@@ -1,4 +1,6 @@
-#include <QApplication>
+#include <iostream>
 #include "mainwindow.h"
-#include "receta.h"
 #include "almacen.h"
+#include "listadoblecircular.h"
+
+using namespace std;

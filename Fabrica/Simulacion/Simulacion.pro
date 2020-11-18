@@ -10,14 +10,26 @@ CONFIG += c++11
 
 SOURCES += \
     almacen.cpp \
+    carrito.cpp \
+    listadoblecircular.cpp \
     main.cpp \
     mainwindow.cpp \
+    mezcladora.cpp \
+    nodopaquete.cpp \
+    paquete.cpp \
+    planificador.cpp \
     receta.cpp
 
 HEADERS += \
     Estructuras.h \
     almacen.h \
+    carrito.h \
+    listadoblecircular.h \
     mainwindow.h \
+    mezcladora.h \
+    nodopaquete.h \
+    paquete.h \
+    planificador.h \
     receta.h
 
 FORMS += \
