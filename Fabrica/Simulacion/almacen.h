@@ -3,7 +3,7 @@
 #include "receta.h"
 
 
-class Almacen{
+struct Almacen{
     Receta* receta;
     int harina;
     int chocolate;

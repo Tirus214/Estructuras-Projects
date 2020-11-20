@@ -1,20 +1,20 @@
-#ifndef CARRITO_H
-#define CARRITO_H
+#ifndef BANDAMH_H
+#define BANDAMH_H
 #include <QApplication>
 #include <QtCore>
 #include <QtDebug>
 
-class Carrito : public QThread{
-    QString ingrediente;
-    int cantMax;
+class BandaME : public QThread{
     int cantMin;
+    int cantMax;
     int velocidad;
+
 public:
-    Carrito(){
+    BandaME(){
         cantMax = 0;
         cantMin = 0;
         velocidad = 0;
     }
 };
 
-#endif // CARRITO_H
+#endif // BANDAMH_H

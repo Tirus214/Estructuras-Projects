@@ -10,23 +10,34 @@ CONFIG += c++11
 
 SOURCES += \
     almacen.cpp \
+    banda.cpp \
+    bandeja.cpp \
     carrito.cpp \
+    cola.cpp \
+    fabirca.cpp \
+    horno.cpp \
     listadoblecircular.cpp \
     main.cpp \
     mainwindow.cpp \
     mezcladora.cpp \
+    nodocola.cpp \
     nodopaquete.cpp \
     paquete.cpp \
     planificador.cpp \
     receta.cpp
 
 HEADERS += \
-    Estructuras.h \
     almacen.h \
+    banda.h \
+    bandeja.h \
     carrito.h \
+    cola.h \
+    fabirca.h \
+    horno.h \
     listadoblecircular.h \
     mainwindow.h \
     mezcladora.h \
+    nodocola.h \
     nodopaquete.h \
     paquete.h \
     planificador.h \

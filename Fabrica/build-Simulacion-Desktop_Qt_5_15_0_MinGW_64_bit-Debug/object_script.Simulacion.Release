@@ -1,0 +1,16 @@
+release/almacen.o
+release/banda.o
+release/carrito.o
+release/cola.o
+release/fabirca.o
+release/horno.o
+release/listadoblecircular.o
+release/main.o
+release/mainwindow.o
+release/mezcladora.o
+release/nodocola.o
+release/nodopaquete.o
+release/paquete.o
+release/planificador.o
+release/receta.o
+release/moc_mainwindow.o

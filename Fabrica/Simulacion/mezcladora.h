@@ -5,15 +5,19 @@
 #include <QtDebug>
 
 class Mezcladora : public QThread {
-public:
     int cantMin;
     int cantMax;
     int velocidad;
+    int mezcla;
+public:
 
-    Mezcladora(int _cantMin, int _cantMax){
-        this->cantMax = _cantMax;
-        this->cantMin = _cantMin;
+    Mezcladora(){
+        cantMax = 0;
+        cantMin = 0;
+        velocidad = 0;
+        mezcla = 0;
     }
+
 
     void run(){
 
