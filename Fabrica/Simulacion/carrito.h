@@ -1,20 +1,13 @@
 #ifndef CARRITO_H
 #define CARRITO_H
 #include <QApplication>
-#include <QtCore>
-#include <QtDebug>
 
-class Carrito : public QThread{
+struct Carrito{
     QString ingrediente;
     int cantMax;
     int cantMin;
-    int velocidad;
-public:
-    Carrito(){
-        cantMax = 0;
-        cantMin = 0;
-        velocidad = 0;
-    }
+
+    Carrito(){}
 };
 
 #endif // CARRITO_H
